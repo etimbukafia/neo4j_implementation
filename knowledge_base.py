@@ -52,7 +52,7 @@ def create_cypher_queries(json_file_path):
 
     # Join all queries into a single string separated by newlines
     full_query = "\n".join(queries)
-    return full_query
+    return full_query 
 
     
 

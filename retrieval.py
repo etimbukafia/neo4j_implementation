@@ -111,7 +111,7 @@ Provide a concise, helpful answer."""
     
     # Extract and return the answer
     return response.choices[0].message.content.strip()
-
+ 
 
 
 

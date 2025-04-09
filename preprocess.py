@@ -235,7 +235,7 @@ def identify_chapters(text):
             print("Warning: No chapters explicitly identified. Processing entire text as one chapter.")
             chapters = [("1", "Complete Text", text)]
 
-    return chapters
+    return chapters 
 
 
 

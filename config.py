@@ -29,7 +29,7 @@ def initialize_config():
     driver = AsyncGraphDatabase.driver(neo4j_uri, auth=(neo4j_user, neo4j_password))
     embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
 
-    return qdrant_client, collection_name, neo4j_database, driver, embeddings
+    return qdrant_client, collection_name, neo4j_database, driver, embeddings 
 
 
 

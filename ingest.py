@@ -192,7 +192,7 @@ async def clear_neo4j_database(session):
     DETACH DELETE n
     """
     await session.run(query)
-    print("Neo4j database cleared successfully")
+    print("Neo4j database cleared successfully") 
 
 
 
